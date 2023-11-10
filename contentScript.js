@@ -4,9 +4,7 @@ function handleAdSkipButtonClick() {
   function checkForAdSkipButton() {
     const adSkipButton = document.querySelector('.ytp-ad-skip-button');
     if (adSkipButton) {
-      setTimeout(() => {
-        adSkipButton.click();
-      }, 500);
+      adSkipButton.click();
       handleAdSkipButtonClick();
     }
   }
