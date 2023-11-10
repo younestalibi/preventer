@@ -12,7 +12,7 @@ function handleAdSkipButtonClick() {
       // The ad skip button exists, trigger the click event
       setTimeout(() => {
         adSkipButton.click();
-      }, 1000);
+      }, 500);
       handleAdSkipButtonClick();
     }
   }
