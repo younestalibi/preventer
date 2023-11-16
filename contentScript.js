@@ -2,7 +2,8 @@ function handleAdSkipButtonClick() {
     console.log('Ad skip button clicked');
   }
   function checkForAdSkipButton() {
-    const adSkipButton = document.querySelector('.ytp-ad-skip-button');
+    // const adSkipButton = document.querySelector('.ytp-ad-skip-button');
+    const adSkipButton = document.querySelector('.ytp-ad-skip-button-modern ytp-button');
     if (adSkipButton) {
       adSkipButton.click();
       handleAdSkipButtonClick();
