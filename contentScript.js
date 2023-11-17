@@ -3,7 +3,7 @@ function handleAdSkipButtonClick() {
   }
   function checkForAdSkipButton() {
     // const adSkipButton = document.querySelector('.ytp-ad-skip-button');
-    const adSkipButton = document.querySelector('.ytp-ad-skip-button-modern ytp-button');
+    const adSkipButton = document.querySelector(".ytp-ad-skip-button-modern")
     if (adSkipButton) {
       adSkipButton.click();
       handleAdSkipButtonClick();
