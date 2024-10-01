@@ -5,11 +5,13 @@ function checkForAdSkipButton() {
         document.querySelector('button[id^="skip-button:"]'),
         document.querySelector(".ytp-skip-ad-button"),
     ]
+    console.log('---preventer----')
     for (let button of BUTTONS) {
         if (button) {
             button.click()
         }
     }
+    console.log('---preventer----')
 }
 
 const observer = new MutationObserver(function(mutations) {
